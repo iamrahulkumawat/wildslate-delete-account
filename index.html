@@ -30,7 +30,7 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 820px;
       margin: auto;
       padding: 40px 20px;
     }
@@ -56,6 +56,14 @@
       margin: 8px 0;
     }
 
+    .box {
+      background: #111;
+      border: 1px solid #222;
+      padding: 18px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
     .warning {
       background: #1a0000;
       border: 1px solid crimson;
@@ -68,7 +76,7 @@
       display: inline-block;
       background: crimson;
       color: #fff;
-      padding: 12px 20px;
+      padding: 12px 22px;
       margin-top: 20px;
       border-radius: 6px;
       text-decoration: none;
@@ -78,14 +86,6 @@
 
     .btn:hover {
       background: #a30000;
-    }
-
-    .email-box {
-      background: #111;
-      padding: 15px;
-      border-radius: 8px;
-      margin-top: 15px;
-      border: 1px solid #222;
     }
 
     footer {
@@ -103,29 +103,39 @@
 
 <header>
   <img src="logo.png" alt="Wildslate Logo"/>
-  <h1>Delete Your Account</h1>
+  <h1>Delete Your Wildslate Account</h1>
 </header>
 
 <div class="container">
 
   <p>
-    At <strong>Wildslate</strong>, we respect your privacy and your right to control your data.  
-    This page explains how you can request deletion of your account and associated data.
+    At <strong>Wildslate</strong>, we respect your privacy and your control over your data.  
+    You can request account deletion at any time using the methods below.
   </p>
 
-  <h2>How to Delete Your Account</h2>
-  <p>You can request account deletion using one of the following methods:</p>
+  <h2>Delete Directly from the App</h2>
+  <div class="box">
+    <p>You can easily delete your account inside the Wildslate app:</p>
+    <ul>
+      <li>Open the <strong>Wildslate App</strong></li>
+      <li>Go to <strong>Settings</strong></li>
+      <li>Navigate to <strong>Account</strong></li>
+      <li>Tap on <strong>Delete Account</strong></li>
+      <li>Confirm your request</li>
+    </ul>
+  </div>
 
-  <ul>
-    <li>Inside the app: Go to <strong>Settings → Account → Delete Account</strong></li>
-    <li>Or send a request via email (see below)</li>
-  </ul>
+  <h2>Delete via Email Request</h2>
+  <div class="box">
+    <p>If you cannot access your account, send a request to:</p>
+    <p>
+      <strong>Email:</strong><br/>
+      <a href="mailto:himanshu.newlife@gmail.com" style="color: crimson;">
+        himanshu.newlife@gmail.com
+      </a>
+    </p>
 
-  <div class="email-box">
-    <strong>Email Request:</strong><br/>
-    Send an email to:<br/>
-    <a href="mailto:himanshu.newlife@gmail.com" style="color: crimson;">himanshu.newlife@gmail.com</a><br/><br/>
-    Include:
+    <p>Include the following details:</p>
     <ul>
       <li>Your registered email address</li>
       <li>Your username (if available)</li>
@@ -133,41 +143,36 @@
     </ul>
   </div>
 
-  <h2>What Happens When You Delete Your Account</h2>
+  <h2>What Happens After Deletion</h2>
   <ul>
-    <li>Your profile and personal data will be permanently deleted</li>
-    <li>Your messages, media, and content may be removed</li>
-    <li>Your subscriptions and purchases will be cancelled</li>
-    <li>Your blogs, products, and listings will be deleted</li>
+    <li>Your account and profile data will be permanently deleted</li>
+    <li>Your messages, media, and shared content may be removed</li>
+    <li>Your subscriptions will be cancelled</li>
+    <li>Your products, blogs, and listings will be deleted</li>
   </ul>
 
   <div class="warning">
-    ⚠️ <strong>Important:</strong> Account deletion is permanent and cannot be undone.
+    ⚠️ <strong>Warning:</strong> This action is permanent and cannot be undone.
   </div>
 
   <h2>Data Retention</h2>
   <p>
-    Some data may be retained for a limited period if required for:
+    Certain data may be retained temporarily where required for legal, financial, or security purposes.
   </p>
-  <ul>
-    <li>Legal compliance</li>
-    <li>Fraud prevention</li>
-    <li>Financial record keeping</li>
-  </ul>
 
   <h2>Processing Time</h2>
   <p>
-    We process deletion requests within <strong>7–15 business days</strong>.
+    Deletion requests are typically processed within <strong>7–15 business days</strong>.
   </p>
 
-  <h2>Your Rights (GDPR & Global Users)</h2>
+  <h2>Your Rights</h2>
   <p>
-    You have the right to request deletion of your personal data (“Right to be Forgotten”) under applicable laws such as GDPR.
+    You have the right to request deletion of your personal data under applicable laws including GDPR (“Right to be Forgotten”).
   </p>
 
   <h2>Need Help?</h2>
   <p>
-    If you face any issues, contact us:
+    Contact us anytime:
   </p>
 
   <p>
@@ -176,7 +181,7 @@
   </p>
 
   <a href="mailto:himanshu.newlife@gmail.com?subject=Account%20Deletion%20Request" class="btn">
-    Request Account Deletion
+    Request Deletion via Email
   </a>
 
 </div>
